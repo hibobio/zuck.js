@@ -922,7 +922,7 @@ var ZuckJS = function () {
                 video.currentTime = 0;
                 video.play();
 
-                if (unmute.target) {
+                if (unmute && unmute.target) {
                     unmuteVideoItem(video, storyViewer);
                 }
             } else {
